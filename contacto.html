@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body> 
+  <header>
+    <div class="logo">GOSSIP YA!</div>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Últimos</a></li>
+        <li><a href="#">Populares</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header> 
+  <main>
+    <form>
+  <label for="fname">Apodo de chismoso:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Chisme apellido:</label><br>
+  <input type="text" id="lname" name="lname">
+<form action="/guardar-comentario" method="post">
+  <label for="comment">Dejá tu chismecito:</label><br>
+  <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+  <input type="submit" value="Enviar">
+</form>
+  </main>
+</body>
+</html>
